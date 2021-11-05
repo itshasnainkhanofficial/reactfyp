@@ -26,6 +26,9 @@ header{
   background-color: var(--darkpurple);
   color: var(--white);
   padding: 1rem;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
 }
 h1{
   text-transform: uppercase;
@@ -36,3 +39,12 @@ h1, h2{
   padding: 1rem;
 }
 
+ul{
+  list-style: none;
+  display: flex;
+}
+ul > li > a{
+  padding: 0.5rem;
+  color: var(--white);
+  text-decoration: none;
+}
